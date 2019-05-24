@@ -1,0 +1,154 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #4a4a4a;
+  background-color: #e9e9f1;
+}
+
+header {
+  background-color: #fff;
+  -moz-box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.sky-logo {
+  margin-bottom: 5px;
+}
+.page-title {
+  font-size: 22px;
+  font-weight: bold;
+  line-height: normal;
+}
+
+.navbar {
+  padding: 0 46px 0 0;
+}
+
+.navbar-expand-sm .navbar-nav .nav-link {
+  padding-left: 0;
+  padding-top: 0;
+  padding-right: 30px;
+  color: #4a4a4a;
+}
+
+.nav-item a:hover {
+  text-decoration: underline;
+}
+.nav-item.active a {
+  font-weight: bold;
+}
+
+main .row {
+  margin: 2rem 0;
+}
+
+/* Moodslider*/
+.range {
+  background-color: #fff;
+  -webkit-box-shadow: 0 15px 20px -8px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 15px 20px -8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 15px 20px -8px rgba(0, 0, 0, 0.2);
+}
+
+.range-div {
+  display: flex;
+  margin: 0.5em;
+}
+
+.range-div p {
+  width: 25%;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.range-slider {
+  background-color: transparent;
+  width: 50%;
+}
+
+/* Button */
+.btn {
+  color: #fff;
+  background-color: #0073c5;
+  border-color: #0073c5;
+}
+.btn:active,
+.btn:hover {
+  background-color: #73add8;
+  border-color: #73add8;
+}
+.btn:focus {
+  outline: none;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4),
+    0 1px 15px 3px rgba(115, 173, 216, 0.75);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4),
+    0 1px 15px 3px rgba(115, 173, 216, 0.75);
+}
+.btn:active,
+.btn:hover {
+  color: #fff;
+  background-color: #73add8;
+  border-color: #73add8;
+}
+.btn:focus {
+  outline: none;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4),
+    0 1px 15px 3px rgba(115, 173, 216, 0.75);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4),
+    0 1px 15px 3px rgba(115, 173, 216, 0.75);
+}
+
+/* Programme Slots*/
+
+.thumbnail {
+  background-color: 0 1px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.thumbnail img {
+  -webkit-box-shadow: 0 15px 20px -8px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 15px 20px -8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 15px 20px -8px rgba(0, 0, 0, 0.2);
+}
+
+.caption {
+  text-align: center;
+  padding: 1em;
+  font-weight: bold;
+}
+
+.upload-content {
+  border: 8px solid white;
+  background-color: rgb(245, 245, 245);
+  -webkit-box-shadow: 0 15px 20px -8px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 15px 20px -8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 15px 20px -8px rgba(0, 0, 0, 0.2);
+}
+
+/* Media queries */
+@media screen and (max-width: 767.98px) {
+  .page-title {
+    margin: 24px 0;
+  }
+
+  .thumbnail img {
+    width: 100%;
+  }
+  input {
+    margin: 1em;
+  }
+}
+
+@media screen and (min-width: 767.98px) {
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+  }
+}

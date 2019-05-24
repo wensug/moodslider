@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="Wendy Gonzalez">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>Moodslider</title>
+
+    <!-- Custom CSS for styling this page -->
+    <link href="css/mood_slider.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class>
+      <div class="container">
+        <div class="row pt-1 pb-2">
+          <div class="col-md-2 d-flex align-items-center">
+            <img
+              class="sky-logo"
+              src="images/sky_logo.png"
+              height="46"
+              width="77"
+            />
+          </div>
+          <div class="col-md-10 pt-2 pt-2">
+            <h1 class="page-title small">Moodslider</h1>
+            <!--Nav Bar-->
+            <nav class="navbar navbar-expand-sm">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#upload-xml">Upload Content</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Moodslider-->
+    <main class="pt-3">
+      <div class="container">
+        <div class="row range pl-2 pr-2 pt-4 pb-1 d-flex flex-column">
+          <div class="range-div agitated-sad">
+            <p>Agitated</p>
+            <input
+              id="sl_agitated_calm"
+              class="range-slider"
+              type="range"
+              name="range"
+              min="0"
+              max="99"
+              data-orientation="vertical"
+              onchange="get_recommendations()"
+            />
+            <p>Calm</p>
+          </div>
+          <div class="range-div happy-sad">
+            <p>Happy</p>
+            <input
+              id="sl_happy_sad"
+              class="range-slider"
+              type="range"
+              name="range"
+              min="0"
+              max="99"
+              data-orientation="vertical"
+              onchange="get_recommendations()"
+            />
+            <p>Sad</p>
+          </div>
+          <div class="range-div tired-wide-awake">
+            <p>Tired</p>
+            <input
+              id="sl_tired_awake"
+              class="range-slider"
+              type="range"
+              name="range"
+              min="0"
+              max="99"
+              data-orientation="vertical"
+              onchange="get_recommendations()"
+            />
+            <p>Wide Awake</p>
+          </div>
+          <div class="range-div scared-fearless">
+            <p>Scared</p>
+            <input
+              id="sl_scared_fearless"
+              class="range-slider"
+              type="range"
+              name="range"
+              min="0"
+              max="99"
+              data-orientation="vertical"
+              onchange="get_recommendations()"
+            />
+            <p>Fearless</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Programme Slots-->
+      <div class="container d-flex justify-content-center">
+        <div class="row">
+         <div class="col-md col-sm-6">
+            <div class="thumbnail">
+              <img
+                class="programme img-fluid"
+                id="programme-image-0"
+                src="images/nocontent.png"
+              />
+              <div class="caption">
+                <p id="programme-text-0" class="programme-text-0">No Content</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md col-sm-6">
+            <div class="thumbnail">
+              <img
+                class="programme img-fluid"
+                id="programme-image-1"
+                src="images/nocontent.png"
+              />
+              <div class="caption">
+                <p id="programme-text-1" class="programme-text-1">No Content</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md col-sm-6">
+            <div class="thumbnail">
+              <img
+                class="programme img-fluid"
+                id="programme-image-2"
+                src="images/nocontent.png"
+              />
+              <div class="caption">
+                <p id="programme-text-2" class="programme-text-2">No Content</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md col-sm-6">
+            <div class="thumbnail">
+              <img
+                class="programme img-fluid"
+                id="programme-image-3"
+                src="images/nocontent.png"
+              />
+              <div class="caption">
+                <p id="programme-text-3" class="programme-text-3">No Content</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md col-sm-6">
+            <div class="thumbnail">
+              <img
+                class="programme img-fluid"
+                id="programme-image-4"
+                src="images/nocontent.png"
+
+              />
+              <div class="caption">
+                <p id="programme-text-4" class="programme-text-4">No Content</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Upload file -->
+      <div id="upload-xml" class="container">
+        <div class="row">
+            <div 
+             class="upload-content p-4 col-md-12 d-flex justify-content-center"
+            >
+                <form id="upload_form" action="/upload" method="post">
+                    <input id="programs_file" type="file"  multiple/>
+                    <input id="submit_form_btn" class="btn" type="submit" value="Upload"/>
+                </form>
+            </div>
+        </div>
+      </div>
+    <script src="js/index.js"></script>
+    </main>
+  </body>
+</html>

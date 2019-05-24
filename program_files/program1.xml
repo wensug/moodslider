@@ -1,0 +1,205 @@
+<?xml version="1.0"?>
+<programmes>
+    <title>Programme Data</title>
+    <programme id="1">
+        <name>Ghostbusters</name>
+        <image_path>images/ghostbusters.jpg</image_path>
+        <mood>Agitated</mood>
+    </programme>
+    <programme id="2">
+        <name>Shrek</name>
+        <image_path>/images/shrek.jpg</image_path>
+        <mood>Agitated</mood>
+    </programme>
+    <programme id="3">
+        <name>Grease</name>
+        <image_path>/images/grease.jpg</image_path>
+        <mood>Agitated</mood>
+    </programme>
+     <programme id="4">
+        <name>Wonderland</name>
+        <image_path>/images/wonderland.jpg</image_path>
+        <mood>Agitated</mood>
+    </programme>
+     <programme id="5">
+        <name>Sing</name>
+        <image_path>/images/sing.jpg</image_path>
+        <mood>Agitated</mood>
+    </programme>
+    <programme id="6">
+        <name>Avatar</name>
+        <image_path>images/avatar.jpg</image_path>
+        <mood>Calm</mood>
+    </programme>
+    <programme id="7">
+        <name>Captain America</name>
+        <image_path>/images/captainamerica.jpg</image_path>
+        <mood>Calm</mood>
+    </programme>
+    <programme id="8">
+        <name>Begin Again</name>
+        <image_path>/images/beginagain.jpg</image_path>
+        <mood>Calm</mood>
+    </programme>
+     <programme id="9">
+        <name>Dr Strange</name>
+        <image_path>/images/drstrange.jpg</image_path>
+        <mood>Calm</mood>
+    </programme>
+     <programme id="10">
+        <name>Logan</name>
+        <image_path>/images/logan.jpg</image_path>
+        <mood>Calm</mood>
+    </programme>
+    <programme id="11">
+        <name>The Intouchables</name>
+        <image_path>images/theintouchables.jpg</image_path>
+        <mood>Happy</mood>
+    </programme>
+    <programme id="12">
+        <name>Passengers</name>
+        <image_path>/images/passengers.jpg</image_path>
+        <mood>Happy</mood>
+    </programme>
+    <programme id="13">
+        <name>The Revenant</name>
+        <image_path>/images/revenant.jpg</image_path>
+        <mood>Happy</mood>
+    </programme>
+     <programme id="14">
+        <name>Arrival</name>
+        <image_path>/images/arrival.jpg</image_path>
+        <mood>Happy</mood>
+    </programme>
+     <programme id="15">
+        <name>Exmachina</name>
+        <image_path>/images/exmachina.jpg</image_path>
+        <mood>Happy</mood>
+    </programme>
+    <programme id="16">
+        <name>Finding Dory</name>
+        <image_path>images/findingdory.jpg</image_path>
+        <mood>Sad</mood>
+    </programme>
+    <programme id="17">
+        <name>Inside Out</name>
+        <image_path>/images/insideout.jpg</image_path>
+        <mood>Sad</mood>
+    </programme>
+    <programme id="18">
+        <name>Moana</name>
+        <image_path>/images/moana.jpg</image_path>
+        <mood>Sad</mood>
+    </programme>
+     <programme id="19">
+        <name>Trainwreck</name>
+        <image_path>/images/trainwreck.jpg</image_path>
+        <mood>Sad</mood>
+    </programme>
+     <programme id="20">
+        <name>Sing</name>
+        <image_path>/images/sing.jpg</image_path>
+        <mood>Sad</mood>
+    </programme>
+    <programme id="21">
+        <name>Zootopia</name>
+        <image_path>images/zootopia.jpg</image_path>
+        <mood>Tired</mood>
+    </programme>
+    <programme id="22">
+        <name>WallE</name>
+        <image_path>/images/walle.jpg</image_path>
+        <mood>Tired</mood>
+    </programme>
+    <programme id="23">
+        <name>Grease</name>
+        <image_path>/images/grease.jpg</image_path>
+        <mood>Tired</mood>
+    </programme>
+     <programme id="24">
+        <name>Minions</name>
+        <image_path>/images/minions.jpg</image_path>
+        <mood>Tired</mood>
+    </programme>
+     <programme id="25">
+        <name>Deadpool</name>
+        <image_path>/images/deadpool.jpg</image_path>
+        <mood>Tired</mood>
+    </programme>
+    <programme id="26">
+        <name>Batman V Superman</name>
+        <image_path>images/batmansuperman.jpg</image_path>
+        <mood>Wide Awake</mood>
+    </programme>
+    <programme id="27">
+        <name>Bridge of Spies</name>
+        <image_path>/images/bridgespies.jpg</image_path>
+        <mood>Wide Awake</mood>
+    </programme>
+    <programme id="28">
+        <name>Life is Beautiful</name>
+        <image_path>/images/lifeisbeautiful.jpg</image_path>
+        <mood>Wide Awake</mood>
+        <rating>8</rating>
+    </programme>
+     <programme id="29">
+        <name>The King Speech</name>
+        <image_path>/images/thekingspeech.jpg</image_path>
+        <mood>Wide Awake</mood>
+    </programme>
+     <programme id="30">
+        <name>Up</name>
+        <image_path>/images/up.jpg</image_path>
+        <mood>Wide Awake</mood>
+    </programme>
+    <programme id="31">
+        <name>Toy Story</name>
+        <image_path>images/toystory.jpg</image_path>
+        <mood>Scared</mood>
+    </programme>
+    <programme id="32">
+        <name>Hidden Figures</name>
+        <image_path>/images/hiddenfigures.jpg</image_path>
+        <mood>Scared</mood>
+    </programme>
+    <programme id="33">
+        <name>Sing</name>
+        <image_path>/images/sing.jpg</image_path>
+        <mood>Scared</mood>
+    </programme>
+     <programme id="34">
+        <name>Shrek</name>
+        <image_path>/images/shrek.jpg</image_path>
+        <mood>Scared</mood>
+    </programme>
+     <programme id="35">
+        <name>Beauty and Beast</name>
+        <image_path>/images/beautybeast.jpg</image_path>
+        <mood>Scared</mood>
+    </programme>
+    <programme id="36">
+        <name>The Exorcist</name>
+        <image_path>images/theexorcist.jpg</image_path>
+        <mood>Fearless</mood>
+    </programme>
+    <programme id="37">
+        <name>The Ring</name>
+        <image_path>/images/thering.jpg</image_path>
+        <mood>Fearless</mood>
+    </programme>
+    <programme id="38">
+        <name>IT</name>
+        <image_path>/images/it.jpg</image_path>
+        <mood>Fearless</mood>
+    </programme>
+     <programme id="39">
+        <name>The Conjuring 2</name>
+        <image_path>/images/theconjuring2.jpg</image_path>
+        <mood>Fearless</mood>
+    </programme>
+     <programme id="40">
+        <name>I Saw The Devil</name>
+        <image_path>/images/isawthedevil.jpg</image_path>
+        <mood>Fearless</mood>
+    </programme>
+</programmes>
